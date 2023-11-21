@@ -2,7 +2,7 @@ module github.com/google/cadvisor
 
 go 1.19
 
-replace golang.org/x/net => golang.org/x/net v0.7.0
+replace golang.org/x/net => golang.org/x/net v0.17.0
 
 require (
 	cloud.google.com/go/compute/metadata v0.2.3
@@ -28,7 +28,7 @@ require (
 	github.com/prometheus/client_model v0.3.0
 	github.com/prometheus/common v0.37.0
 	github.com/stretchr/testify v1.8.2
-	golang.org/x/net v0.13.0
+	golang.org/x/net v0.17.0
 	golang.org/x/sys v0.8.0
 	google.golang.org/grpc v1.57.0
 	k8s.io/klog/v2 v2.100.1
